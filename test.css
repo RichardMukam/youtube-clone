@@ -1,0 +1,60 @@
+body {
+  background-color: #212121;
+}
+
+p {
+  font-family: Roboto, sans-serif, Arial;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.thumb-div {
+  width: 100%;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-info-div {
+  width: 100%;
+}
+
+.pfpdiv {
+  width: 35px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pfp {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.video-details-div {
+  display: inline-block;
+  margin-left: 5px;
+  width: 248px;
+  word-wrap: break-word;  
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.author, .stats {
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  margin-bottom: 6px;
+}
