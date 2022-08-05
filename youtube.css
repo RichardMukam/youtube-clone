@@ -8,23 +8,26 @@ p {
   margin-top: 0px;
 }
 
+#page-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 35px;
+}
+
 input {
   display: block;
   margin-bottom: 30px;
-}
-
-.preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
-  margin-bottom: 20px;
 }
 
 .thumb-div {
   width: 100%;
   margin-bottom: 8px;
   display: block;
+}
+
+.preview {
+  width: 100%;
 }
 
 .thumbnail {
@@ -36,12 +39,13 @@ input {
 
 .video-info-div {
   width: 100%;
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  column-gap: 5px;
 }
 
 .pfpdiv {
   width: 35px;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .pfp {
@@ -61,16 +65,14 @@ input {
 }
 
 .video-details-div {
-  display: inline-block;
-  margin-left: 5px;
-  width: 248px;
-  word-wrap: break-word;  
+  word-wrap: break-word;
 }
 
-.title {
+.title, .href-title {
   font-weight: bold;
   margin-bottom: 12px;
   color: white;
+  text-decoration: none;
 }
 
 .author, .stats {
