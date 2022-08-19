@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>CSS Flexbox</title>
+    <link rel="icon" href="/channel-pictures/deepfp.jpg">
+
+    <style>
+      #flex {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+      }
+      #first-div {
+        background-color: lightblue;
+      }
+      #second-div {
+        background-color: lightpink;
+      }
+      #grid2 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+      }
+      #third-div {
+        background-color: lightblue;
+        width: 100px;
+      }
+      #fourth-div {
+        background-color: lightpink;
+        flex: 1;
+      }
+      #grid3 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+      }
+      #fifth-div {
+        background-color: lightblue;
+        width: 100px;
+      }
+      #sixth-div {
+        background-color: lightpink;
+        flex: 1;
+      }
+      #seventh-div {
+        background-color: lightblue;
+        flex: 2;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div id="grid">
+      <div id="first-div">
+        div1
+      </div>
+      <div id="second-div">
+        div2 <p>hi</p>
+      </div>
+    </div>
+
+    <div id="grid2">
+      <div id="third-div">
+        100px
+      </div>
+      <div id="fourth-div">
+        flex: 1
+      </div>
+    </div>
+
+    <div id="grid3">
+      <div id="fifth-div">
+        100px
+      </div>
+      <div id="sixth-div">
+        flex: 1
+      </div>
+      <div id="seventh-div">
+        flex: 2
+      </div>
+    </div>
+  </body>
+</html>

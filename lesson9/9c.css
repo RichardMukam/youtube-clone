@@ -1,0 +1,23 @@
+.satisfied-div {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  width: 300px;
+  height: 80px;
+}
+
+p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 16px;
+  font-size: 16px;
+}
+
+.yes-button {
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.no-button {
+  cursor: pointer;
+}

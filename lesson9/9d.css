@@ -1,0 +1,28 @@
+div {
+  background-color: rgba(32, 32, 32, 0.95);
+  width: 370px;
+  height: 110px;
+  display: block;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  font-family: Arial;
+}
+
+.install-ytm {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-bottom: 11px;
+}
+
+.install-desc {
+  color: rgb(158, 158, 158);
+  line-height: 18px;
+  font-size: 15px;
+  width: 350px;
+}

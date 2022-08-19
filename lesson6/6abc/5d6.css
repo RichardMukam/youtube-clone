@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+
+}
+
+.hook-paragraph {
+  color: rgb(29, 29, 31);
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.apple-helps {
+  color: rgb(29, 29, 31);
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.learn-more {
+  color: rgb(0, 102, 204);
+  font-size: 14px;
+}

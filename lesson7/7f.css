@@ -1,0 +1,52 @@
+p {
+  font-family: 'Source Sans 3', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(100, 100, 100);
+}
+
+.email {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.insert-email {
+  border-width: 2px;
+  border-color: rgb(100, 100, 100);
+  border-radius: 5px;
+  border-style: solid;
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 345px;
+  margin-bottom: 18px;
+}
+
+.terms {
+  font-size: 14px;
+  margin-bottom: 18px;
+  width: 353px;
+}
+
+.agree-join {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 353px;
+  font-size: 16px;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+  transition: background-color 0.15s, box-shadow 0.15s;
+}
+
+.agree-join:hover {
+  background-color: rgb(8, 88, 168);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+}
+
+.agree-join:active{
+  opacity: 0.7;
+}

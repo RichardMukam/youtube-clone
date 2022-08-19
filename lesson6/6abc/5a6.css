@@ -1,0 +1,11 @@
+.tahoma-font {
+  font-family: Tahoma;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.tahoma-specific {
+  text-decoration: underline;
+}

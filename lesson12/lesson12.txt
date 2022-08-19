@@ -1,0 +1,17 @@
+Flexbox - 
+Perform more like inline elements, take up as much horizontal space as they need to
+Have to first set display to flex then set the flex direction to row.
+If more text is added, the box expands, hence its name.
+Vertically aligns
+Grid - 
+Have to first set the display to grid then set the columns, then the elements go within
+the columns, more rigid.
+
+While using flexbox, to set the width of the container, simply style the element "width: ". 
+Meanwhile, to make a container fill the rest of the page, do "flex: 1", which is similar
+to "1fr" in Grid. Additionally, "flex: 2" is similar to "2fr" in Grid.
+Ratios:
+flex: 2 (or 2fr) means the container is twice as large as the previous container; likewise,
+for instance, flex: 3 would be 
+REALLY, the numbers tell us relatively how much of the remaining space it takes, because
+it's based on fractions.
