@@ -13,3 +13,5 @@ lesson10/
 lesson11/
 lesson12/
 webframe-of-divs.png
+*.temp
+.DS_Store
