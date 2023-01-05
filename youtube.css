@@ -8,6 +8,15 @@ p {
   margin-top: 0px;
 }
 
+input {
+  display: block;
+  margin-bottom: 30px;
+}
+
+:root {
+  --secondary-color: rgb(96, 96, 96);
+}
+
 #page-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -15,10 +24,6 @@ p {
   row-gap: 35px;
 }
 
-input {
-  display: block;
-  margin-bottom: 30px;
-}
 
 .thumb-div {
   width: 100%;
@@ -58,7 +63,7 @@ input {
 
 .pfp:hover
 {
-  animation: spinPfp 4s;
+  animation: spinPfp 2s;
   animation-iteration-count: infinite;
 }
 
@@ -98,7 +103,7 @@ input {
     transform: rotate(45deg);
   }
   75% {
-    transform: rotate(-315deg);
+    transform: rotate(-360deg);
   }
   to {
     transform: rotate(360deg);
