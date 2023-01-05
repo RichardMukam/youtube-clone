@@ -1,5 +1,5 @@
 body {
-  background-color: #212121;
+  background-color: white;
 }
 
 p {
@@ -56,6 +56,12 @@ input {
   font-family: Roboto, sans-serif, Arial;
 }
 
+.pfp:hover
+{
+  animation: spinPfp 4s;
+  animation-iteration-count: infinite;
+}
+
 .verify
 {
   width: 12px;
@@ -71,12 +77,31 @@ input {
 .title, .href-title {
   font-weight: bold;
   margin-bottom: 12px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 .author, .stats {
-  color: rgb(170, 170, 170);
+  color: var(--secondary-color);
   font-size: 13px;
   margin-bottom: 6px;
 }
+
+@keyframes spinPfp {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  75% {
+    transform: rotate(-315deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
