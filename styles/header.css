@@ -1,4 +1,9 @@
 /* styles for the header of the youtube page */
+:root
+{
+    --heightForLeftSection: 1.5rem;
+}
+
 #header
 {
     height: 3.5rem;
@@ -9,13 +14,16 @@
 
 #left-section
 {
-    background-color: lightblue;
-    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #middle-section
 {
     background-color: lightpink;
+    display: flex;
+    align-items: center;
     flex: 1;
     max-width: 29rem;
     margin-left: 5rem;
@@ -27,3 +35,19 @@
     background-color: lightblue;
     width: 12.57em;
 }
+
+/* styles for the left side */
+#hamburger-menu-style
+{
+    height: var(--heightForLeftSection);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#yt-logo-style
+{
+    height: 1.25rem;
+}
+
+/* styles for the middle
+

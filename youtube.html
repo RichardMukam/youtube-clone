@@ -7,7 +7,9 @@
     <meta name="description" content="A clone of the YouTube homepage.">
     <meta name="author" content="Richard Mukam">
     <meta name="keywords" content="YouTube, You, Tube, Video, Sharing,">
-    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="styles/youtube.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/elements.css">
     <link rel="icon" href="channel-pictures/yticon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,22 @@
   <body>
 
     <div id="header">
-      <input id="search-bar" type="text" placeholder="Search">
+      <div id="left-section">
+        <img id="hamburger-menu-style" src="icons/hamburger-menu.svg" alt="hamburger menu image">
+        <img id="yt-logo-style" src="icons/youtube-logo.svg" alt="youtube logo">
+      </div>
+      <div id="middle-section">
+        <input id="search-bar" type="text" placeholder="Search">
+        <button id="search-button">
+          <img id=search-button-style" src="icons/search.svg" alt="search button">
+        </button>
+        <button id="voice-button">
+          <img id="voice-button-style" src="icons/voice-search-icon.svg" alt="voice button">
+        </button>
+      </div>
+      <div id="right-section">
+        right section
+      </div>
     </div>
 
     <div id="page-grid">
