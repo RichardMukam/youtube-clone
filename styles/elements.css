@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+    margin: 0;
+  }
+  
+  p {
+    font-family: Roboto, sans-serif, Arial;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  input {
+    display: block;
+    margin-bottom: 30px;
+  }
