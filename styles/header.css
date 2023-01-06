@@ -2,6 +2,7 @@
 :root
 {
     --heightForLeftSection: 1.5rem;
+    --header-secondary-color: rgb(183, 181, 181);
 }
 
 #header
@@ -21,7 +22,6 @@
 
 #middle-section
 {
-    background-color: lightpink;
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -55,23 +55,54 @@
 {
     flex: 1;
     padding-left: 0.7rem;
-    height: 2rem;
+    height: 2.25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--header-secondary-color);
+    border-radius: 2px;
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.09)
 }
 
 #search-bar::placeholder /* how to target the "placeholder" for elements */
 {
     font-family: 'Roboto';
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 #search-button
 {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     height: 2.5rem;
-    width: 3.5rem;
+    width: 4.2rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--header-secondary-color);
+    margin-left: -1px;
+}
+
+#search-button-style /* the img */
+{
+    height: 1.5rem;
 }
 
 #voice-button
 {
+    background-color: rgb(240, 240, 240);
     height: 2.5rem;
-    width: 3rem;
+    width: 2.5rem;
+    margin-left: 0.6rem;
+    border-radius: 100%;
+    border: none;
+    opacity: 0.8
+}
+
+#voice-button-style
+{
+    height: 1.5rem;
+    vertical-align: center;
+    text-align: center;
 }
