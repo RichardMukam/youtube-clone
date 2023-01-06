@@ -23,8 +23,9 @@
 {
     background-color: lightpink;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     flex: 1;
+    align-items: center;
     max-width: 29rem;
     margin-left: 5rem;
     margin-right: 2.2rem;
@@ -49,5 +50,28 @@
     height: 1.25rem;
 }
 
-/* styles for the middle
+/* styles for the middle */
+#search-bar
+{
+    flex: 1;
+    padding-left: 0.7rem;
+    height: 2rem;
+}
 
+#search-bar::placeholder /* how to target the "placeholder" for elements */
+{
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+
+#search-button
+{
+    height: 2.5rem;
+    width: 3.5rem;
+}
+
+#voice-button
+{
+    height: 2.5rem;
+    width: 3rem;
+}
