@@ -33,8 +33,11 @@
 
 #right-section
 {
-    background-color: lightblue;
-    width: 12.57em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 11rem;
 }
 
 /* styles for the left side */
@@ -105,4 +108,15 @@
     height: 1.5rem;
     vertical-align: center;
     text-align: center;
+}
+
+.icons-right-side
+{
+    height: 1.5rem;
+}
+
+#headshot-pic
+{
+    height: 2rem;
+    border-radius: 100%;
 }
