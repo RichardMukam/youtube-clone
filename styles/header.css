@@ -38,6 +38,8 @@
     align-items: center;
     justify-content: space-between;
     width: 11rem;
+    margin-right: 1.5rem;
+    flex-shrink: 0; /* prevents flexbox from shrinking */
 }
 
 /* styles for the left side */
@@ -57,6 +59,7 @@
 #search-bar
 {
     flex: 1;
+    width: 0; /* allows flexbox to shrink */
     padding-left: 0.7rem;
     height: 2.25rem;
     border-style: solid;
@@ -117,6 +120,6 @@
 
 #headshot-pic
 {
-    height: 2rem;
+    height: 2.44rem;
     border-radius: 100%;
 }
