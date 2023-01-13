@@ -1,0 +1,9 @@
+#navbar
+{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 3.5rem;
+    width: 4.5rem;
+    background-color: green;
+}
