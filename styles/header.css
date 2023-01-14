@@ -9,6 +9,7 @@
 {
     background-color: white;
     position: fixed;
+    z-index: 100;
     top: 0;
     left: 0;
     right: 0;
@@ -119,6 +120,27 @@
     height: 1.5rem;
     vertical-align: center;
     text-align: center;
+}
+
+#notifications-div
+{
+    position: relative;
+}
+
+#notifications-count
+{
+    position: absolute;
+    background-color: #f90505;
+    color: white;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.10rem;
+    padding-bottom: 0.10rem;
+    border-radius: 50%;
+    font-family: 'Roboto', 'Arial';
+    font-size: 0.5rem;
+    right: -0.1rem;;
+    top: -0.1rem;
 }
 
 .icons-right-side
