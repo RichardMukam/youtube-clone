@@ -10,6 +10,38 @@
   row-gap: 2rem;
 }
 
+@media (max-width: 740px)
+{
+  #page-grid
+  {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 945px) /* if browser window is 600px or less, use this css (responsiveness) */
+{
+  #page-grid
+  {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 946px) and (max-width: 1250px) /* if browser window is 600px or less, use this css (responsiveness) */
+{
+  #page-grid
+  {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1251px)
+{
+  #page-grid
+  {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .preview {
   width: 100%;
 }
