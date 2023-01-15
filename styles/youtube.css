@@ -18,7 +18,7 @@
   }
 }
 
-@media (min-width: 741px) and (max-width: 945px) /* if browser window is 600px or less, use this css (responsiveness) */
+@media (min-width: 741px) and (max-width: 945px) /* if browser window is greater than / = 741px, but less than 945px, use this css (responsiveness) */
 {
   #page-grid
   {
@@ -26,7 +26,7 @@
   }
 }
 
-@media (min-width: 946px) and (max-width: 1250px) /* if browser window is 600px or less, use this css (responsiveness) */
+@media (min-width: 946px) and (max-width: 1250px) /* if browser window is greater than / = 946px, but less than 1250px, use this css (responsiveness) */
 {
   #page-grid
   {
