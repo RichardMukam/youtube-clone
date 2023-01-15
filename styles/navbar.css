@@ -1,8 +1,46 @@
+/* *
+{
+    box-sizing: border-box;
+    outline: 1px solid limegreen !important;
+} */
+
 #navbar
 {
+    background-color: #fafafa;
     position: fixed;
-    left: 0px;
+    left: 0;
     bottom: 0px;
     top: 3.5rem;
-    width: 4.5rem;
+    width: 9rem;
+    z-index: 101;
+    padding-top: 1rem;
+}
+
+.navbar-element
+{
+    height: 2.5rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.navbar-element:hover
+{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.navbar-element svg /* target all svg elements within the navbar-element div */
+{
+    height: 1.5rem;
+    padding-left: 0.3rem;
+}
+
+.navbar-element div
+{
+    font-size: 0.85rem;
+    margin-left: 0.8rem;
 }
